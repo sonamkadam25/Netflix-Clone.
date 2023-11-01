@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  position: relative;
+  display:block;
+}
+.main img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 1536px;
+  height: 731px;
+}
+#netflix {
+  width: 310px;
+  height: 173px;
+  margin-left: 91px;
+  margin-top: -43px;
+}
+pre {
+  position: absolute;
+  font-size: 3rem;
+  color: white;
+  font-weight: 1000;
+  margin-left: 16rem;
+  margin-top: 15rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.main p {
+  position: absolute;
+  font-size: 1.6rem;
+  font-weight: 550;
+  color: white;
+  margin-top: 25rem;
+  margin-left: 27rem;
+  text-align: center;
+  line-height: 3rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.fl{
+  position:absolute;
+  display:flex;
+  justify-content: space-between;
+}
+/* label[for=language]{
+  */
+  /* margin-left: 60rem;
+  margin-top: 2rem;
+  height: 2rem;
+  width: 5.6rem;
+  position: absolute;
+  border-radius: 0.3rem; */
+/*  */
+#language{
+  margin-left: 72rem;
+  margin-top: 2rem;
+  height: 2rem;
+  width: 5.6rem;
+  position: absolute;
+  border-radius: 0.3rem;
+  font-size:1rem;
+  padding-left: 0.7rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+#language option{
+  font-size:1rem;
+}
+.main button{
+  background-color: red;
+  margin-left: 80rem;
+  margin-top: 2rem;
+  height: 2rem;
+  width: 5.6rem;
+  position: absolute;
+  border-radius: 0.3rem;
+  border-color: currentColor;
+  cursor: pointer;
+}
+.main span {
+  font-size: 1.3rem;
+}
+.email
+{
+  display: flex;
+  position: absolute;
+  height: 3.3rem;
+  margin-left: 28rem;
+  padding-left: 2rem;
+  margin-top: 32rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+input[type="email"] {
+  display: flex;
+  position: absolute;
+  min-width: 20.5rem;
+  fill: white;
+  height: 3.29rem;
+  padding-left: 2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ffffffa3;
+  color: white;
+  font-size: 1.1rem;
+}
+.email .box{
+  background-color: red;
+  height: 3.5rem;
+  width: 13rem;
+  color: white;
+  margin-left: 23.3rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.email .box:hover{
+  background-color: rgb(193, 17, 25);
+}
+.buton:hover{
+  background-color: rgb(193, 17, 25);
+}
+/* .line
+{
+  height:80rem;
+  width:100%;
+  background-color: rgb(83, 81, 81);
+} */
+.blackbox{
+  display:flex;
+  height:80rem;
+  width:100%;
+  background-color: black;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.box1{
+  color: white;
+  margin-left: 6rem;
+  margin-top: 44rem;
+  margin-bottom: 3rem;
+  display: flex;
+
+}
+.box1 p{
+  text-align: left;
+  padding-top: 6rem;
+  font-size:2rem;
+
+}
+.box1  span{
+  font-size: 3rem;
+  line-height: 9rem;
+  font-weight: 800;
+}
+.box2{
+  /* background-color: white; */
+  margin-left: 14rem;
+  margin-top: 52rem;
+  display: flex;
+  margin-right: 8rem;
+  width: 38rem;
+  height: 19.7rem;
+  border: 1px solid gray;
+}
+
+
+.greybox{
+  display:flex;
+  height:35rem;
+  width:100%;
+  background-color: rgb(0, 0, 0);
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.greybox img{
+  height: 33rem;
+  width: 38rem;
+}
+
+.box22{
+  color: white;
+  margin-top: 12rem;
+  margin-bottom: 3rem;
+  display: flex;
+  width: 45rem;
+}
+.box22 p{
+  text-align: left;
+  /* padding-top: 6rem; */
+  font-size:2rem;
+
+}
+.box22  span{
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 900;
+}
+.box11{
+  /* background-color: white; */
+  margin-left: 3rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 3rem;
+  display: flex;
+  margin-right: 5rem;
+  width: 38rem;
+  height: 37rem;
+}
+.line
+{
+  height: 0.5rem;
+  width: 100%;
+  background-color: rgb(35,35,35);
+}
+
+
+.bluebox{
+  display:flex;
+  height:40rem;
+  width:100%;
+  background-color: black;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.box111{
+  color: white;
+  margin-left: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  display: flex;
+
+}
+.box111 p{
+  text-align: left;
+  padding-top: 6rem;
+  font-size:2rem;
+
+}
+.box111  span{
+  font-size: 3rem;
+  line-height: 9rem;
+  font-weight: 900;
+}
+.box222{
+  /* background-color: white; */
+  margin-left: 14rem;
+  margin-top: 12rem;
+  display: flex;
+  margin-right: 8rem;
+  width: 38rem;
+  height: 19.7rem;
+  border: 1px solid gray;
+}
+
+.redbox{
+  display:flex;
+  height:35rem;
+  width:100%;
+  background-color: rgb(0, 0, 0);
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.redbox img{
+  height: 33rem;
+  width: 38rem;
+}
+
+.box2222{
+  color: white;
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+  display: flex;
+  width: 45rem;
+}
+.box2222 p{
+  text-align: left;
+  /* padding-top: 6rem; */
+  font-size:2rem;
+
+}
+.box2222  span{
+  font-size: 3rem;
+  line-height: 9rem;
+  font-weight: 900;
+}
+.box1111{
+  /* background-color: white; */
+  margin-left: 3rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 3rem;
+  display: flex;
+  margin-right: 5rem;
+  width: 38rem;
+  height: 37rem;
+}
+
+.lastbox{
+    position:absolute;
+    display:flex;
+    height:65rem;
+    width:100%;
+    background-color: black;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.lastbox p{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding-left: 29rem;
+  padding-top: 2rem;
+  width: 45rem;
+}
+
+.one{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(45,45,45);
+  color: white;
+  height: 4rem;
+  width: 77rem;
+  padding-top: 2rem;
+  margin-top: 8rem;
+  margin-right: 6rem;
+  margin-left: -64rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  cursor: pointer;
+}
+.content{
+  padding-left: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.symbol{
+  font-size: 2rem;
+  padding-right: 2rem;
+  font-weight: 600;
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(45,45,45);
+  color: white;
+  height: 4rem;
+  width: 77rem;
+  padding-top: 2rem;
+  margin-top: 15rem;
+  margin-right: -7rem;
+  margin-left: -83rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  cursor: pointer;
+}
+.third{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(45,45,45);
+  color: white;
+  height: 4rem;
+  width: 77rem;
+  padding-top: 2rem;
+  margin-top: 22rem;
+  margin-right: -7rem;
+  margin-left: -70rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  cursor: pointer;
+}
+.forth{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(45,45,45);
+  color: white;
+  height: 4rem;
+  width: 77rem;
+  padding-top: 2rem;
+  margin-top: 29rem;
+  margin-right: -7rem;
+  margin-left: -70rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  cursor: pointer;
+}
+.fifth{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(45,45,45);
+  color: white;
+  height: 4rem;
+  width: 77rem;
+  padding-top: 2rem;
+  margin-top: 36rem;
+  margin-right: -7rem;
+  margin-left: -70rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  cursor: pointer;
+}
+.six{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(45,45,45);
+  color: white;
+  height: 4rem;
+  width: 77rem;
+  padding-top: 2rem;
+  margin-top: 43rem;
+  margin-right: -7rem;
+  margin-left: -70rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  cursor: pointer;
+}
+.one:hover,.second:hover,.third:hover,.forth:hover,.fifth:hover,.six:hover{
+  background-color: rgb(74, 74, 74);
+}
+.lastcontent{
+  height: 2px;
+  width: 46rem;
+  padding-top: 12rem;
+  /* background-color: blue; */
+  margin-right: 1rem;
+  margin-top: 51rem;
+  position: absolute;
+  margin-left: 25rem;
+}
+.lastcontent p{
+  font-size: 1.2rem;
+  color: white;
+  margin-right: 7rem;
+  margin-top: -12rem;
+  margin-left: -29rem;
+  font-weight: 600;
+}
+
+
+
+
+.lastcontent .email
+{
+  display: flex;
+  position: absolute;
+  height: 3.3rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  margin-right: 3rem;
+}
+input[type="email"] {
+  display: flex;
+  position: absolute;
+  min-width: 20.5rem;
+  fill: white;
+  height: 3.29rem;
+  padding-left: 2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ffffffa3;
+  color: white;
+  font-size: 1.1rem;
+}
+.lastcontent .email .box{
+  background-color: red;
+  height: 3.5rem;
+  width: 13rem;
+  color: white;
+  margin-left: 23.3rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.email .box:hover{
+  background-color: rgb(193, 17, 25);
+}
+.linee
+{
+  height: 0.5rem;
+  width: 100%;
+  background-color: rgb(35,35,35);
+  padding-top: 51rem;
+  margin-top: 14rem;
+
+}
+
+.end{
+  height:30rem;
+  width:100%;
+  background-color: black;
+}
+.end p{
+  color: white;
+  padding-left: 12rem;
+  padding-top: 5rem;
+
+}
+a{
+  cursor:pointer;
+  color:white;
+}
+.endbox{
+  height: 17rem;
+  width: 71rem;
+  /* background-color: blue; */
+  margin-left: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  color:white;
+}
+ul a{
+  display: block;
+  margin-left: 9rem;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+#languagee{
+  margin-left: 9rem;
+  margin-top: 4rem;
+  height: 2rem;
+  width: 5.6rem;
+  position: absolute;
+  border-radius: 0.3rem;
+  font-size:1rem;
+  padding-left: 0.7rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+#languagee option{
+  font-size:1rem;
+}
